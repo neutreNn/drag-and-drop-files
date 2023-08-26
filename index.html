@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- google font -->
+    <link rel="stylesheet" href="https://fonts.googleapis/css2?family=Poppins&display=swap">
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Drag & Drop File Upload</title>
+</head>
+<body>
+    <div class="container">
+        <input type="file" id="upload-button" multiple accept="image/*">
+        <label for="upload-button">
+            <i class="fa-solid fa-upload"></i>&nbsp;
+            Choose or Drop Photos
+        </label>
+        <div id="error"></div>
+        <div id="image-display"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
